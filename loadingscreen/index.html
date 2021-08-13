@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta content="" name="keywords">
+    <meta
+        content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"
+        name="viewport">
+    <link rel="stylesheet" media="all" type="text/css" href="img/style.css">
+
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <audio id="leson" autoplay="true" loop="true">
+        <source src="snd/sick.mp3">
+    </audio>
+    <img class="body-background" src="img/back/back2.jpg">
+    <div class="audio">
+        <div class="audiotxt">aga</div>
+        <div style="position: relative;">
+            <i class="fas fa-volume-down"></i>
+            <input type="range" min="0" max="10" value="2" class="slider" id="sesval">
+        </div>
+    </div>
+    <div class="panel" data-tilt data-tilt-max="5" data-tilt-scale="1.03" data-tilt-glare data-tilt-max-glare="0.03">
+        <div class="fake-black">
+
+            <div class="header">
+                <ul class="header-menus">
+                    <ol title="home" class="header-menu-selected">OFFENSİVE</ol>
+                    <ol title="news">HABERLER</ol>
+                    <ol title="rules">KURALLAR</ol>
+                    <ol title="communicate">İLETİŞİM</ol>
+                </ul>
+                <img src="img/logo.png" class="logo">
+            </div>
+            <div id="home" class="inside-panel" style="">
+                <div class="middle-holder">
+                    <h3>OFFENSİVE ROLEPLAY</h3>
+                    <div class="middle-p-holder">
+                        <h1>OFFENSİVE ROLEPLAY</h1>
+                        <h2>discord.gg/DuZ3t7pEFD</h2>
+                    </div>
+                </div>
+                <div class="lover-holder">
+                    <h4>ÖNE ÇIKANLAR</h4>
+                    <div class="lover-img-holder">
+                        <img src="img/main/photo1.jpg" class="loverimg">
+                        <img src="img/main/photo2.png" class="loverimg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Another One -->
+            <div id="news" class="inside-panel" style="display: none;">
+                <div class="left-news-div">
+                </div>
+            </div>
+
+            <!-- Another One -->
+            <div id="rules" class="inside-panel" style="display: none;">
+                <div class="left-rules-div">
+                </div>
+            </div>
+
+            <div id="communicate" class="inside-panel" style="display: none;">
+                <div class="left-uye-div">
+                </div>
+            </div>
+
+            <img class="ped-image" src="img/back/gang1.png">
+        </div>
+    </div>
+    <script src="js/medium-zoom.min.js"></script>
+    <script src="js/vanilla-tilt.min.js"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+</body>
+
+</html>

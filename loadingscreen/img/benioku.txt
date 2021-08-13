@@ -1,0 +1,1 @@
+bu klosörün içine logonuzu atıp logo dosyasının adını logo.png yapın
